@@ -5,15 +5,24 @@
 
 # Task 2: Selectors
 ### remind_password_hyperlink_xpath
-#### //a[@class='MuiTypography-root MuiLink-root MuiLink-underlineHover jss4 MuiTypography-colorPrimary']
-#### //a[@tabindex='-1']
-#### //a[text()="Remind password"]
+- //a[@class='MuiTypography-root MuiLink-root MuiLink-underlineHover jss4 MuiTypography-colorPrimary']
+- //a[@tabindex='-1']
+- //a[text()="Remind password"]
 ### login_xpath
-#### //label[@id='login-label']
-#### //label[text()="Login"]
-#### //label[@for='login']
+- //label[@id='login-label']
+- //label[text()="Login"]
+- //label[@for='login']
 ### password_xpath
-#### //label[@id='password-label']
-#### //label[text()="Password"]
-#### //label[@for='password]
-
+- //label[@id='password-label']
+- //label[text()="Password"]
+- //label[@for='password]
+### scouts_panel_xpath
+- //h5[@class='MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom']
+- //h5[text()="Scouts Panel"]
+### change_language_xpath
+- //div[@class='MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input']
+- //div[@role='button']
+- //div[text()="English"]
+### sign_in_hyperlink_xpath
+- //span[@class='MuiButton-label']
+- //span[text()="Sign in"]
