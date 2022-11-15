@@ -1,3 +1,4 @@
+import time
 from pages.base_page import BasePage
 
 
@@ -13,3 +14,5 @@ class Dashboard(BasePage):
     sign_in_hyperlink_xpath = "//span[@class='MuiButton-label']"
     change_language_xpath = "//div[@role='button']"
     scouts_panel_xpath = "//h5[text()='Scouts Panel']"
+
+
